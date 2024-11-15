@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ao.jedp.colormanager.MainController">
+   <children>
+      <ScrollPane prefHeight="400.0" prefWidth="507.0" vvalue="1.0">
+         <content>
+            <VBox alignment="TOP_CENTER" style="-fx-background-color: #ffffff;">
+               <children>
+                  <GridPane hgap="4.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="btnR" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #FFEBEE;" text="#ffebee red lighten-5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnP" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #F3E5F5;" text="#f3e5f5 purple lighten-5" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                        <Button fx:id="btnP1" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #FCE4EC;" text="#fce4ec pink lighten-5" GridPane.columnIndex="1" />
+                        <Button fx:id="btnR1" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #FFCDD2;" text="#ffcdd2 red lighten-4" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR2" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #F8BBD0;" text="#f8bbd0 pink lighten-4" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR3" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #E1BEE7;" text="#e1bee7 purple lighten-4" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR4" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #EF9A9A;" text="#ef9a9a red lighten-3" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR5" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #F48FB1;" text="#f48fb1 pink lighten-3" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR6" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #CE93D8;" text="#ce93d8 purple lighten-3" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR7" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #E57373;" text="#e57373 red lighten-2" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR8" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #F06292;" text="#f06292 pink lighten-2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR9" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #BA68C8;" text="#ba68c8 purple lighten-2" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR10" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #EF5350;" text="#e57373 red lighten-1" GridPane.rowIndex="4">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR11" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #EC407A;" text="#f06292 pink lighten-1" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR12" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #AB47BC;" text="#ba68c8 purple lighten-1" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR13" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #F44336;" text="#ffebee red" GridPane.rowIndex="5">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR14" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #E91E63;" text="#f06292 pink" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR15" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #9C27B0;" text="#ba68c8 purple" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR16" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #E53935;" text="#e53935 red darken-1" textFill="WHITE" GridPane.rowIndex="6">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR161" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #D81B60;" text="#d81b60 pink darken-1" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR162" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #8E24AA;" text="#8e24aa purple darken-1" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR163" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #D32F2F;" text="#d32f2f red darken-2" textFill="WHITE" GridPane.rowIndex="7">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR164" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #C2185B;" text="#c2185b pink darken-2" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR165" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #7B1FA2;" text="#7b1fa2 purple darken-2" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR1631" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #C62828;" text="#c62828 red darken-3" textFill="WHITE" GridPane.rowIndex="8">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR16311" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #AD1457;" text="#ad1457 pink darken-3" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR16312" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #6A1B9A;" text="#6a1b9a purple darken-3" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR16313" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #B71C1C;" text="#b71c1c red darken-4" textFill="WHITE" GridPane.rowIndex="9">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR16314" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #880E4F;" text="#880e4f pink darken-4" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR16315" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #FF8A80;" text="#ff8a80 red accent-1" GridPane.rowIndex="10">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR16316" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #FF5252;" text="#ff5252 red accent-2" GridPane.rowIndex="11">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR16317" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #D32F2F;" text="#d32f2f red darken-2" textFill="WHITE" GridPane.rowIndex="12">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR163171" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #D32F2F;" text="#d32f2f red darken-2" textFill="WHITE" GridPane.rowIndex="13">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR163121" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #D32F2F;" text="#d32f2f red darken-2" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="13">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR1631211" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #D32F2F;" text="#d32f2f red darken-2" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="13">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR1631212" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #D32F2F;" text="#d32f2f red darken-2" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="12">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR1631213" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #D32F2F;" text="#d32f2f red darken-2" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="12">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR1631214" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #E040FB;" text="#e040fb purple accent-2" GridPane.columnIndex="2" GridPane.rowIndex="11">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR1631215" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #EA80FC;" text="#ea80fc purple accent-1" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR1631216" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #FF5252;" text="#ff4081 pink accent-2" GridPane.columnIndex="1" GridPane.rowIndex="11">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR1631217" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #FF80AB;" text="#ff80ab pink accent-1" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnR1631218" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="161.0" style="-fx-background-color: #4A148C;" text="#4a148c purple darken-4" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </GridPane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</HBox>
